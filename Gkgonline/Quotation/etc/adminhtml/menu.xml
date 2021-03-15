@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Gkgonline_Quotation::helloworld" title="GKG Online" module="Gkgonline_Quotation" sortOrder="51" resource="Gkgonline_Quotation::helloworld"/>
+        <add id="Gkgonline_Quotation::post" title="Manage Posts" module="Gkgonline_Quotation" sortOrder="10" action="gkgonline_quotation/post" resource="Gkgonline_Quotation::post" parent="Gkgonline_Quotation::helloworld"/>
+        <add id="Gkgonline_Quotation::hello_configuration" title="Configuration" module="Gkgonline_Quotation" sortOrder="99" parent="Gkgonline_Quotation::helloworld" action="adminhtml/system_config/edit/section/helloworld" resource="Gkgonline_Quotation::helloworld_configuration"/>
+    </menu>
+</config>

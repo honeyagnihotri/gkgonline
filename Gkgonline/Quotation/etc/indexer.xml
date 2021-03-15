@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Indexer/etc/indexer.xsd">
+    <indexer id="gkgonline_quotation_indexer" view_id="gkgonline_quotation_indexer" class="Gkgonline\Quotation\Model\Indexer\Test">
+        <title translate="true">Gkgonline Quotation Indexer</title>
+        <description translate="true">Quotation of custom indexer</description>
+    </indexer>
+</config>
